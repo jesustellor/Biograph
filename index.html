@@ -6,12 +6,16 @@
     <title>Jesus Tello</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
       rel="stylesheet"
     />
   </head>
+  <script>
+    function changeBio() {
+      document.getElementById("bio").innerHTML = "Hello World!";
+    }
+  </script>
   <body>
     <h1><strong class="sc-only">My name is </strong>Jesus Tello</h1>
 
@@ -26,8 +30,9 @@
     />
     <section>
       <h2>My Biography</h2>
-      <section id="bioButtons">
-      <button>Hand Written</button> <button>Computer Typed</button>
+      <section>
+
+      <button id="textChange" onclick="changeBio()">Hand Written</button>
     </section>
       <article>
         <p id="bio">
