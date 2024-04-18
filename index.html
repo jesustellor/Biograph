@@ -12,8 +12,11 @@
     />
   </head>
   <script>
-    function changeBio() {
-      document.getElementById("bio").innerHTML = "Hello World!";
+    const App = function _App() {
+      return `
+        <h1>Hello</h1>
+        <div>example div</div>
+      `
     }
   </script>
   <body>
@@ -35,6 +38,7 @@
       <button id="textChange" onclick="changeBio()">Hand Written</button>
     </section>
       <article>
+        <h3 id="app"></h3>
         <p id="bio">
           As a seasoned web developer, I bring a wealth of experience to every
           project i work on. I am Proficient in HTML, with an understanding of
@@ -67,6 +71,11 @@
         border: 1px solid black;
       }
     </style>
+
+<script>
+document.getElementById("app").innerHTML = App()
+</script>
+
     <table>
       <tr>
         <th>Dish</th>
