@@ -13,12 +13,15 @@
   </head>
 
   <script>
-    let idState = localStorage.getItem("appState");
-    let state = idState ? JSON.parse(idState) : { bio: "text"}
 
     function changeBio() {
-      console.log(idState);
-}
+      if (!document.getElementById("bio")){
+        document.getElementById("bio2").id = "bio";
+      } else {
+        document.getElementById("bio").id = "bio2";
+      }
+    }
+
 
   </script>
   
