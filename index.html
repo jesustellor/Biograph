@@ -11,14 +11,17 @@
       rel="stylesheet"
     />
   </head>
+
   <script>
-    const App = function _App() {
-      return `
-        <h1>Hello</h1>
-        <div>example div</div>
-      `
-    }
+    let idState = localStorage.getItem("appState");
+    let state = idState ? JSON.parse(idState) : { bio: "text"}
+
+    function changeBio() {
+      console.log(idState);
+}
+
   </script>
+  
   <body>
     <h1><strong class="sc-only">My name is </strong>Jesus Tello</h1>
 
@@ -34,11 +37,9 @@
     <section>
       <h2>My Biography</h2>
       <section>
-
       <button id="textChange" onclick="changeBio()">Hand Written</button>
     </section>
       <article>
-        <h3 id="app"></h3>
         <p id="bio">
           As a seasoned web developer, I bring a wealth of experience to every
           project i work on. I am Proficient in HTML, with an understanding of
@@ -71,11 +72,7 @@
         border: 1px solid black;
       }
     </style>
-
-<script>
-document.getElementById("app").innerHTML = App()
-</script>
-
+    
     <table>
       <tr>
         <th>Dish</th>
@@ -86,5 +83,6 @@ document.getElementById("app").innerHTML = App()
         <td>$10.99</td>
       </tr>
     </table>
+
   </body>
 </html>
