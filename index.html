@@ -17,8 +17,10 @@
     function changeBio() {
       if (!document.getElementById("bio")){
         document.getElementById("bio2").id = "bio";
+        document.getElementById("textChange").textContent = "Computer Typed";
       } else {
         document.getElementById("bio").id = "bio2";
+        document.getElementById("textChange").textContent = "Hand Written";
       }
     }
 
@@ -39,8 +41,8 @@
     />
     <section>
       <h2>My Biography</h2>
-      <section>
-      <button id="textChange" onclick="changeBio()">Hand Written</button>
+      <section id="buttonSection">
+      <button id="textChange" onclick="changeBio()">Computer Typed</button>
     </section>
       <article>
         <p id="bio">
