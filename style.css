@@ -42,14 +42,13 @@ h2 {
     text-align: center;
 }
 
-#buttonSection {
-    margin: 0 auto;
-    text-align: center;
-}
 
 #textChange {
     font-family: "Shadows Into Light";
     font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
