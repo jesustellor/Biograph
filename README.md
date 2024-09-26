@@ -9,3 +9,6 @@ I published this project using the method mentioned here in [The Odin Project](h
 ## Conclusion
 
 to run this project click here [Biograph](https://jesustellor.github.io/Biograph)
+
+
+### curious to know how commits work, after commiting from vscode, not showing up as commit for today.. 
