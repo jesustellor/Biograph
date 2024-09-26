@@ -4,7 +4,7 @@ After applying thermal paste and putting my laptop back together, i was looking 
 
 ## The Odin Project
 
-I published this project using the method mentioned here in project [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page#setting-up-your-projects-github-repository)
+I published this project using the method mentioned here in [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page#setting-up-your-projects-github-repository)
 
 ## Conclusion
 
